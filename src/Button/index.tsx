@@ -7,9 +7,7 @@ class Button extends React.Component {
   };
 
   clickHandler() {
-    this.setState({ counter: this.state.counter + 1 }, () => {
-      console.log(this.state);
-    });
+    this.setState({ counter: this.state.counter });
   }
 
   render() {
